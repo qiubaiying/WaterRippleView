@@ -16,10 +16,8 @@
 @property (nonatomic, assign) CGFloat cycle;// 周期
 @property (nonatomic, assign) CGFloat speed;//水波移动速度
 @property (nonatomic, assign) BOOL moveDirection;// 移动方向 默认 <-
-
 /** 进度 默认0.5 */
 @property (nonatomic, assign) CGFloat progress;
-
 /** 预警值 0 ~ 1 */
 @property (nonatomic, assign) CGFloat warningValue;
 
