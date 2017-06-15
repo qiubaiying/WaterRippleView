@@ -13,6 +13,7 @@
 		02744B141EF26F6D007AE81E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 02744B121EF26F6D007AE81E /* Main.storyboard */; };
 		02744B161EF26F6D007AE81E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 02744B151EF26F6D007AE81E /* Assets.xcassets */; };
 		02744B191EF26F6D007AE81E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 02744B171EF26F6D007AE81E /* LaunchScreen.storyboard */; };
+		02744B231EF26FA9007AE81E /* WaterRippleView.m in Sources */ = {isa = PBXBuildFile; fileRef = 02744B221EF26FA9007AE81E /* WaterRippleView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		02744B151EF26F6D007AE81E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		02744B181EF26F6D007AE81E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		02744B1A1EF26F6D007AE81E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		02744B211EF26FA9007AE81E /* WaterRippleView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WaterRippleView.h; sourceTree = "<group>"; };
+		02744B221EF26FA9007AE81E /* WaterRippleView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WaterRippleView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -42,6 +45,7 @@
 		02744AFD1EF26F6D007AE81E = {
 			isa = PBXGroup;
 			children = (
+				02744B201EF26FA9007AE81E /* WaterRippleView */,
 				02744B081EF26F6D007AE81E /* WaterRippleView_demo */,
 				02744B071EF26F6D007AE81E /* Products */,
 			);
@@ -77,6 +81,15 @@
 				02744B0A1EF26F6D007AE81E /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		02744B201EF26FA9007AE81E /* WaterRippleView */ = {
+			isa = PBXGroup;
+			children = (
+				02744B211EF26FA9007AE81E /* WaterRippleView.h */,
+				02744B221EF26FA9007AE81E /* WaterRippleView.m */,
+			);
+			path = WaterRippleView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -152,6 +165,7 @@
 			files = (
 				02744B111EF26F6D007AE81E /* ViewController.m in Sources */,
 				02744B0E1EF26F6D007AE81E /* AppDelegate.m in Sources */,
+				02744B231EF26FA9007AE81E /* WaterRippleView.m in Sources */,
 				02744B0B1EF26F6D007AE81E /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
