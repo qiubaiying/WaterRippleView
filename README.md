@@ -5,7 +5,7 @@
 
 ## Overview
 
-![](http://ww4.sinaimg.cn/large/006tNbRwgy1fglyrxgu9sg30ag0ijnl8.gif)
+![](http://ww2.sinaimg.cn/large/006tNc79gy1fgva2b3bqng30ij0ag12n.gif)
 
 ## Setting
 
